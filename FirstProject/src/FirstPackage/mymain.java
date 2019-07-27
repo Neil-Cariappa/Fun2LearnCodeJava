@@ -3,10 +3,9 @@ package FirstPackage;
 public class mymain {
 
 	public static void main(String[] args) {
-		shape myShape = new rectangle(8, 5);
+		shape myShape = new triangle(8,4,8);
 		double area = myShape.getArea();
-		System.out.println(area);
-
+		System.out.println(myShape.getDimensions());
 	}
 
 }
